@@ -5,6 +5,7 @@
   "main": "lib/highlights.js",
   "scripts": {
     "test": "grunt test",
+    "preinstall": "coffee --compile --output lib/ src/",
     "prepublish": "grunt prepublish",
     "pretest": "git submodule update --init --recursive"
   },
